@@ -1,4 +1,4 @@
-### The blade template renders
+### Blade template engine rendering
 
 install  
 ```console
