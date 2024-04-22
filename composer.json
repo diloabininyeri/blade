@@ -1,0 +1,19 @@
+{
+  "name": "zeus/blade",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "DILO SURUCU",
+      "email": "berxudar@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Zeus\\Blade\\": "src/"
+    }
+  }
+}
