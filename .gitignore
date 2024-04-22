@@ -1,3 +1,4 @@
-./blade
-./vendor
+blade
+vendor
+.idea
 index.php
