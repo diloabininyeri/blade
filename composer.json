@@ -2,7 +2,7 @@
   "name": "zeus/blade",
   "description": "render a blade template",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "license": "MIT",
   "authors": [
     {
       "name": "DILO SURUCU",
