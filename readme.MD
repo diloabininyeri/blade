@@ -1,5 +1,10 @@
 ### The blade template renders
 
+install  
+```console
+composer require zeus/blade
+ ```
+### An example of using
 ```php
 
 use Zeus\Blade\Blade;

@@ -1,6 +1,6 @@
 {
   "name": "zeus/blade",
-  "description": "description",
+  "description": "render a blade template",
   "minimum-stability": "stable",
   "license": "proprietary",
   "authors": [
