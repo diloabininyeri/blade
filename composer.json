@@ -1,7 +1,7 @@
 {
   "name": "zeus/blade",
   "description": "render a blade template",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
     {
