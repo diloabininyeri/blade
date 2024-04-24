@@ -7,8 +7,6 @@ use Zeus\Blade\interfaces\BladeDirectiveInterface;
 
 class Blade extends AbstractBlade
 {
-    protected static array  $dynamicDirectives=[];
-
     /**
      * @var BladeDirectiveInterface[] $directives
      */
@@ -18,8 +16,10 @@ class Blade extends AbstractBlade
         CsrfDirective::class,
         ExtendsDirective::class,
         YieldDirective::class,
+        IncludeIfDirective::class,
         IncludeDirective::class,
         CurlBracesDirective::class,
+        BreakDirective::class,
         RemoveYields::class,
         RemoveSectionDirective::class,
         IfDirective::class,
@@ -35,6 +35,8 @@ class Blade extends AbstractBlade
         CurlBracesAllowedHtmlChars::class,
         AuthDirective::class,
         EndAuthDirective::class,
+        WhileDirective::class,
+        EndWhileDirector::class,
         //MobileDirective::class,
         //EndMobileDirective::class,
         CustomDirective::class,
@@ -42,6 +44,8 @@ class Blade extends AbstractBlade
         JsEscapeDirective::class,
 
     ];
+
+    protected static array  $dynamicDirectives=[];
 
 
     /**
